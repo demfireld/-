@@ -157,3 +157,59 @@ footer .container {
 .contact a:hover {
     text-decoration: underline;
 }
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: auto;
+}
+.subscribe {
+    background: #f9f9f9;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.subscribe h2 {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+.subscribe p {
+    margin-bottom: 15px;
+}
+
+#subscribe-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#email {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: red;
+}
